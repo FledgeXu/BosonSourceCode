@@ -27,5 +27,8 @@ public class Boson {
         com.gihtub.fledgexu.boson.tickabletileentity.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.tickabletileentity.BlockRegistry.BLOCKS.register(eventBus);
         com.gihtub.fledgexu.boson.tickabletileentity.TileEntityTypeRegistry.TILE_ENTITIES.register(eventBus);
+        com.gihtub.fledgexu.boson.tileentitydatasync.ItemRegistry.ITEMS.register(eventBus);
+        com.gihtub.fledgexu.boson.tileentitydatasync.BlockRegistry.BLOCKS.register(eventBus);
+        com.gihtub.fledgexu.boson.tileentitydatasync.TileEntityTypeRegistry.TILE_ENTITIES.register(eventBus);
     }
 }
