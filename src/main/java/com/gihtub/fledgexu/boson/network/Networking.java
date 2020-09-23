@@ -1,5 +1,6 @@
 package com.gihtub.fledgexu.boson.network;
 
+import com.gihtub.fledgexu.boson.Utils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.network.NetworkRegistry;
 import net.minecraftforge.fml.network.simple.SimpleChannel;
@@ -15,7 +16,7 @@ public class Networking {
 
     public static void registerMessage() {
         INSTANCE = NetworkRegistry.newSimpleChannel(
-                new ResourceLocation("boson", "first_networking"),
+                new ResourceLocation(Utils.MOD_ID, "first_networking"),
                 () -> VERSION,
                 (version) -> version.equals(VERSION),
                 (version) -> version.equals(VERSION)
