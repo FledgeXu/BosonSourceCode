@@ -1,9 +1,9 @@
 {
-	"credit": "Made with Blockbench",
+	"parent": "block/cube_all",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "neutrino:block/obsidian_frame",
-		"particle": "neutrino:block/obsidian_frame"
+		"0": "boson:block/obsidian_frame",
+		"particle": "boson:block/obsidian_frame"
 	},
 	"elements": [
 		{
