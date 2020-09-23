@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "neutrino:block/obsidian_down_block"
+    "all": "boson:block/obsidian_down_block"
   }
 }
