@@ -32,5 +32,6 @@ public class Boson {
         com.gihtub.fledgexu.boson.tileentitydatasync.TileEntityTypeRegistry.TILE_ENTITIES.register(eventBus);
         com.gihtub.fledgexu.boson.ibakedmodel.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.ibakedmodel.BlockRegistry.BLOCKS.register(eventBus);
+        com.gihtub.fledgexu.boson.ister.ItemRegistry.ITEMS.register(eventBus);
     }
 }

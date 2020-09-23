@@ -1,9 +1,8 @@
 {
-	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "neutrino:item/obsidian_wrench",
-		"particle": "neutrino:item/obsidian_wrench"
+		"0": "boson:item/obsidian_wrench",
+		"particle": "boson:item/obsidian_wrench"
 	},
 	"elements": [
 		{
