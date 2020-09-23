@@ -10,5 +10,6 @@ public class Boson {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         com.gihtub.fledgexu.boson.first_item.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.food.ItemRegistry.ITEMS.register(eventBus);
+        com.gihtub.fledgexu.boson.melee_weapons.ItemRegistry.ITEMS.register(eventBus);
     }
 }
