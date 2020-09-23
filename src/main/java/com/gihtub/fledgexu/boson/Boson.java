@@ -35,5 +35,6 @@ public class Boson {
         com.gihtub.fledgexu.boson.ister.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.network.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.first_entity.EntityTypeRegistry.ENTITY_TYPES.register(eventBus);
+        com.gihtub.fledgexu.boson.obsidian_animal.EntityTypeRegistry.ENTITY_TYPES.register(eventBus);
     }
 }
