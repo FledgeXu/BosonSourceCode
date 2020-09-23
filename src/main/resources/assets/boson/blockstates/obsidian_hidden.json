@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "neutrino:block/obsidian_hidden" }
+    "": { "model": "boson:block/obsidian_hidden" }
   }
 }
