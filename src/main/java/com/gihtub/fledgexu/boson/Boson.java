@@ -19,5 +19,7 @@ public class Boson {
         com.gihtub.fledgexu.boson.notsoildblock.BlockRegistry.BLOCKS.register(eventBus);
         com.gihtub.fledgexu.boson.special_render_type.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.special_render_type.BlockRegistry.BLOCKS.register(eventBus);
+        com.gihtub.fledgexu.boson.obj.ItemRegistry.ITEMS.register(eventBus);
+        com.gihtub.fledgexu.boson.obj.BlockRegistry.BLOCKS.register(eventBus);
     }
 }
