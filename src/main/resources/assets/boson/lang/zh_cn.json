@@ -3,5 +3,6 @@
   "item.boson.obsidian_apple":"黑曜石苹果",
   "item.boson.obsidian_sword":"黑曜石剑",
   "itemGroup.boson": "黑曜石物品栏",
-  "message.neutrino.counter": "计数: %d"
+  "message.neutrino.counter": "计数: %d",
+  "message.hello_block.hello": "你好"
 }
