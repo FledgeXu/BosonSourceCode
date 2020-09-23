@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "neutrino:block/glass_jar"
+      "model": "boson:block/glass_jar"
     }
   }
 }

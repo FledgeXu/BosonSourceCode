@@ -3,8 +3,8 @@
   "texture_size": [64, 64],
   "textures": {
     "0": "block/oak_planks",
-    "1": "neutrino:block/glass_jar",
-    "particle": "neutrino:block/glass_jar"
+    "1": "boson:block/glass_jar",
+    "particle": "boson:block/glass_jar"
   },
   "elements": [
     {
