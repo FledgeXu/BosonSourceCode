@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "boson:obsidian_fluid",
+    "boson:obsidian_fluid_flowing"
+  ]
+}

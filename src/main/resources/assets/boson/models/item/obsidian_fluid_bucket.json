@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "neutrino:item/obsidian_fluid_bucket"
+    "layer0": "boson:item/obsidian_fluid_bucket"
   }
 }
