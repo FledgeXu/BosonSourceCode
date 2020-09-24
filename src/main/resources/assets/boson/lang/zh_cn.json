@@ -9,5 +9,6 @@
   "gui.boson.first": "第一个 GUI",
   "gui.boson.first.save": "保存",
   "gui.boson.first.test": "测试",
-  "cmd.boson.hello": "你好"
+  "cmd.boson.hello": "你好",
+  "message.boson.config": "配置文件值: %d"
 }

@@ -1,12 +1,16 @@
 package com.gihtub.fledgexu.boson;
 
+import com.gihtub.fledgexu.boson.configure.Config;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(Utils.MOD_ID)
 public class Boson {
     public Boson() {
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.COMMON_CONFIG);
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         com.gihtub.fledgexu.boson.first_item.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.food.ItemRegistry.ITEMS.register(eventBus);
@@ -54,5 +58,6 @@ public class Boson {
         com.gihtub.fledgexu.boson.first_fluid.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.first_fluid.BlockRegistry.BLOCKS.register(eventBus);
         com.gihtub.fledgexu.boson.first_fluid.FluidRegistry.FLUIDS.register(eventBus);
+        com.gihtub.fledgexu.boson.configure.ItemRegistry.ITEMS.register(eventBus);
     }
 }
