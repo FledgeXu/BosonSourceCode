@@ -50,5 +50,6 @@ public class Boson {
         com.gihtub.fledgexu.boson.container.BlockRegistry.BLOCKS.register(eventBus);
         com.gihtub.fledgexu.boson.container.TileEntityTypeRegistry.TILE_ENTITIES.register(eventBus);
         com.gihtub.fledgexu.boson.container.ContainerTypeRegistry.CONTAINERS.register(eventBus);
+        com.gihtub.fledgexu.boson.hud.ItemRegistry.ITEMS.register(eventBus);
     }
 }
