@@ -4,7 +4,7 @@
     "replace": "true",
     "sounds": [
       {
-        "name": "neutrino:mea",
+        "name": "boson:mea",
         "steam": true
       }
     ]

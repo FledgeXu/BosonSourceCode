@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "neutrino:item/sound_test"
+    "layer0": "boson:item/sound_test"
   }
 }
