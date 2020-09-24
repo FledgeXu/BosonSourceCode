@@ -45,5 +45,6 @@ public class Boson {
         com.gihtub.fledgexu.boson.entity_capabilityprovider.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.wordsaveddata.ItemRegistry.ITEMS.register(eventBus);
         com.gihtub.fledgexu.boson.wordsaveddata.BlockRegistry.BLOCKS.register(eventBus);
+        com.gihtub.fledgexu.boson.first_gui.ItemRegistry.ITEMS.register(eventBus);
     }
 }

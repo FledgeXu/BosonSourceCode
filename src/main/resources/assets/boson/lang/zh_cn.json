@@ -5,5 +5,8 @@
   "itemGroup.boson": "黑曜石物品栏",
   "message.neutrino.counter": "计数: %d",
   "message.hello_block.hello": "你好",
-  "message.obsidian_speed_show": "速度等级: %d"
+  "message.obsidian_speed_show": "速度等级: %d",
+  "gui.boson.first": "第一个 GUI",
+  "gui.boson.first.save": "保存",
+  "gui.boson.first.test": "测试"
 }
