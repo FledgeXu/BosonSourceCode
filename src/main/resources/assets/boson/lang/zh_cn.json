@@ -1,7 +1,7 @@
 {
   "item.boson.obsidian_ingot": "黑曜石锭",
-  "item.boson.obsidian_apple":"黑曜石苹果",
-  "item.boson.obsidian_sword":"黑曜石剑",
+  "item.boson.obsidian_apple": "黑曜石苹果",
+  "item.boson.obsidian_sword": "黑曜石剑",
   "itemGroup.boson": "黑曜石物品栏",
   "message.neutrino.counter": "计数: %d",
   "message.hello_block.hello": "你好",
@@ -10,5 +10,6 @@
   "gui.boson.first.save": "保存",
   "gui.boson.first.test": "测试",
   "cmd.boson.hello": "你好",
-  "message.boson.config": "配置文件值: %d"
+  "message.boson.config": "配置文件值: %d",
+  "message.boson.press": "你按下了 J 键"
 }
