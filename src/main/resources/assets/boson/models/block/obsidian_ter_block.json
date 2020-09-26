@@ -1,9 +1,8 @@
 {
-  "credit": "Made with Blockbench",
   "texture_size": [64, 64],
   "textures": {
-    "0": "neutrino:block/obsidian_ter_block",
-    "particle": "neutrino:block/obsidian_ter_block"
+    "0": "boson:block/obsidian_ter_block",
+    "particle": "boson:block/obsidian_ter_block"
   },
   "elements": [
     {
