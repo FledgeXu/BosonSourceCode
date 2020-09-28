@@ -24,6 +24,7 @@ public class Boson {
         com.tutorial.boson.food.ItemRegistry.ITEMS.register(eventBus);
         com.tutorial.boson.melee_weapons.ItemRegistry.ITEMS.register(eventBus);
         com.tutorial.boson.tool.ItemRegistry.ITEMS.register(eventBus);
+        com.tutorial.boson.armor.ItemRegistry.ITEMS.register(eventBus);
         com.tutorial.boson.first_block.ItemRegistry.ITEMS.register(eventBus);
         com.tutorial.boson.first_block.BlockRegistry.BLOCKS.register(eventBus);
         com.tutorial.boson.blockstate.ItemRegistry.ITEMS.register(eventBus);
