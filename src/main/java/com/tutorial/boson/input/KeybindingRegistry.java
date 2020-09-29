@@ -10,8 +10,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class KeybindingRegistry {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
-        event.enqueueWork(() -> {
-            ClientRegistry.registerKeyBinding(KeyBoardInput.MESSAGE_KEY);
-        });
+        event.enqueueWork(() -> ClientRegistry.registerKeyBinding(KeyBoardInput.MESSAGE_KEY));
     }
 }

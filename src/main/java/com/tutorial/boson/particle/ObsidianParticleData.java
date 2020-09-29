@@ -12,9 +12,9 @@ import java.awt.*;
 import java.util.Locale;
 
 public class ObsidianParticleData implements IParticleData {
-    private Vector3d speed;
-    private Color color;
-    private float diameter;
+    private final Vector3d speed;
+    private final Color color;
+    private final float diameter;
     public static final IDeserializer<ObsidianParticleData> DESERIALIZER = new IDeserializer<ObsidianParticleData>() {
 
         @Override

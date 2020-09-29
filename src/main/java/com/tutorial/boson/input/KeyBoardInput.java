@@ -20,13 +20,13 @@ public class KeyBoardInput {
             KeyModifier.CONTROL,
             InputMappings.Type.KEYSYM,
             GLFW.GLFW_KEY_J,
-            "key.category.neutrino");
+            "key.category." + Utils.MOD_ID);
 
     @SubscribeEvent
     public static void onKeyboardInput(InputEvent.KeyInputEvent event) {
         if (MESSAGE_KEY.isPressed()) {
             assert Minecraft.getInstance().player != null;
-            Minecraft.getInstance().player.sendMessage(new TranslationTextComponent("message." + Utils.MOD_ID + ".press"), Minecraft.getInstance().player.getUniqueID());
+            Minecraft.getInstance().player.sendStatusMessage(new TranslationTextComponent("message." + Utils.MOD_ID + ".press"), false);
         }
     }
 }
