@@ -1,8 +1,8 @@
 package com.tutorial.boson.first_gui;
 
-import com.tutorial.boson.Utils;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.systems.RenderSystem;
+import com.tutorial.boson.Utils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.TextFieldWidget;
@@ -35,7 +35,7 @@ public class ObsidianFirstGui extends Screen {
         });
         this.addButton(button);
 
-        this.sliderPercentageOption = new SliderPercentageOption("neutrino.sliderbar", 5, 100, 5, (setting) -> Double.valueOf(0), (setting, value) -> {
+        this.sliderPercentageOption = new SliderPercentageOption(Utils.MOD_ID + ".sliderbar", 5, 100, 5, (setting) -> Double.valueOf(0), (setting, value) -> {
         }, (gameSettings, sliderPercentageOption1) -> new TranslationTextComponent("gui." + Utils.MOD_ID + ".first.test"));
         this.sliderBar = this.sliderPercentageOption.createWidget(Minecraft.getInstance().gameSettings, this.width / 2 - 100, 120, 200);
         this.children.add(this.sliderBar);
@@ -46,7 +46,6 @@ public class ObsidianFirstGui extends Screen {
     @Override
     public void render(MatrixStack matrixStack, int mouseX, int mouseY, float partialTicks) {
         this.renderBackground(matrixStack);
-        RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
         this.minecraft.getTextureManager().bindTexture(OBSIDIAN_FIRST_GUI_TEXTURE);
         int textureWidth = 208;
         int textureHeight = 156;

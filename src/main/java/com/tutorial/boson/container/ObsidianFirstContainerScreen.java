@@ -8,9 +8,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
 
 public class ObsidianFirstContainerScreen extends ContainerScreen<ObsidianFirstContainer> {
-    private ResourceLocation OBSIDIAN_CONTAINER_RESOURCE = new ResourceLocation(Utils.MOD_ID, "textures/gui/container.png");
-    private int textureWidth = 176;
-    private int textureHeight = 166;
+    private final ResourceLocation OBSIDIAN_CONTAINER_RESOURCE = new ResourceLocation(Utils.MOD_ID, "textures/gui/container.png");
+    private final int textureWidth = 176;
+    private final int textureHeight = 166;
 
     @Override
     public void render(MatrixStack matrixStack, int mouseX, int mouseY, float partialTicks) {
@@ -38,5 +38,4 @@ public class ObsidianFirstContainerScreen extends ContainerScreen<ObsidianFirstC
         int j = (this.height - this.ySize) / 2;
         blit(matrixStack, i, j, 0, 0, xSize, ySize, this.textureWidth, textureHeight);
     }
-
 }
