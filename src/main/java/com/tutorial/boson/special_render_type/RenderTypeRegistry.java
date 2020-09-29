@@ -11,6 +11,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class RenderTypeRegistry {
     @SubscribeEvent
     public static void onRenderTypeSetup(FMLClientSetupEvent event) {
-        RenderTypeLookup.setRenderLayer(BlockRegistry.glassJar.get(), RenderType.getTranslucent());
+        event.enqueueWork(() -> {
+            RenderTypeLookup.setRenderLayer(BlockRegistry.glassJar.get(), RenderType.getTranslucent());
+        });
     }
 }

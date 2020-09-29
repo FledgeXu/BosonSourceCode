@@ -10,6 +10,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class ClientEventHandler {
     @SubscribeEvent
     public static void onClientEvent(FMLClientSetupEvent event) {
-        ClientRegistry.bindTileEntityRenderer(TileEntityTypeRegistry.obsidianTERTileEntity.get(), (ObsidianTER::new));
+        event.enqueueWork(() -> {
+            ClientRegistry.bindTileEntityRenderer(TileEntityTypeRegistry.obsidianTERTileEntity.get(), ObsidianTER::new);
+        });
     }
 }

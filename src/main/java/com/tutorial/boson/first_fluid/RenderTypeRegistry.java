@@ -11,7 +11,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class RenderTypeRegistry {
     @SubscribeEvent
     public static void onRenderTypeSetup(FMLClientSetupEvent event) {
-        RenderTypeLookup.setRenderLayer(FluidRegistry.obsidianFluid.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(FluidRegistry.obsidianFluidFlowing.get(), RenderType.getTranslucent());
+        event.enqueueWork(() -> {
+            RenderTypeLookup.setRenderLayer(FluidRegistry.obsidianFluid.get(), RenderType.getTranslucent());
+            RenderTypeLookup.setRenderLayer(FluidRegistry.obsidianFluidFlowing.get(), RenderType.getTranslucent());
+        });
     }
 }

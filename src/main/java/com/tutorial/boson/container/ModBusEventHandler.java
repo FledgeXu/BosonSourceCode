@@ -9,6 +9,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class ModBusEventHandler {
     @SubscribeEvent
     public static void onClientSetupEvent(FMLClientSetupEvent event) {
-        ScreenManager.registerFactory(ContainerTypeRegistry.obsidianFirstContainer.get(), ObsidianFirstContainerScreen::new);
+        event.enqueueWork(() -> {
+            ScreenManager.registerFactory(ContainerTypeRegistry.obsidianFirstContainer.get(), ObsidianFirstContainerScreen::new);
+        });
     }
 }

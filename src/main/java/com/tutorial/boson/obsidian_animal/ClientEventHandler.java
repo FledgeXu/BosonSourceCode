@@ -10,6 +10,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class ClientEventHandler {
     @SubscribeEvent
     public static void onClientSetUpEvent(FMLClientSetupEvent event) {
-        RenderingRegistry.registerEntityRenderingHandler(EntityTypeRegistry.obsidianAnimal.get(), ObsidianAnimalRender::new);
+        event.enqueueWork(() -> {
+            RenderingRegistry.registerEntityRenderingHandler(EntityTypeRegistry.obsidianAnimal.get(), ObsidianAnimalRender::new);
+        });
     }
 }

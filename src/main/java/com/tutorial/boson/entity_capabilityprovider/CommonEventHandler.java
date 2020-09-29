@@ -1,5 +1,6 @@
 package com.tutorial.boson.entity_capabilityprovider;
 
+import com.tutorial.boson.Utils;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.ResourceLocation;
@@ -15,7 +16,7 @@ public class CommonEventHandler {
     public static void onAttachCapabilityEvent(AttachCapabilitiesEvent<Entity> event) {
         Entity entity = event.getObject();
         if (entity instanceof PlayerEntity) {
-            event.addCapability(new ResourceLocation("neutrino", "speedup"), new SpeedUpCapabilityProvider());
+            event.addCapability(new ResourceLocation(Utils.MOD_ID, "speedup"), new SpeedUpCapabilityProvider());
         }
     }
 
