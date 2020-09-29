@@ -25,15 +25,8 @@ public class SendPack {
 
     public void handler(Supplier<NetworkEvent.Context> ctx) {
         ctx.get().enqueueWork(() -> {
-            doSecurityAndThenDo(ctx.get(), () -> {
-                LOGGER.info(this.message);
-            });
+            LOGGER.info(this.message);
         });
         ctx.get().setPacketHandled(true);
-    }
-
-    private void doSecurityAndThenDo(NetworkEvent.Context context, Runnable action) {
-        //We should do some security check in here.
-        action.run();
     }
 }
