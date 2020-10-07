@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/iron_ingot"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "boson:size": 16
+      },
+      "model": "item/gold_ingot"
+    }
+  ]
+}
