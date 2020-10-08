@@ -11,7 +11,7 @@
   "gui.boson.first.test": "测试",
   "cmd.boson.hello": "你好",
   "message.boson.config": "配置文件值: %d",
-  "message.boson.press": "你按下了 J 键",Structure
+  "message.boson.press": "你按下了 J 键",
   "key.category.boson": "测试按键",
   "key.message":"测试"
 }
