@@ -75,10 +75,10 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'info'
 
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'boson', '--all', '--output', file('src/generated/resources/')
 
             mods {
-                examplemod {
+                boson {
                     source sourceSets.main
                 }
             }
