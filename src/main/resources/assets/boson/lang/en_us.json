@@ -1,0 +1,17 @@
+{
+  "item.boson.obsidian_ingot": "Obsidian Ingot",
+  "item.boson.obsidian_apple": "Obsidian Apple",
+  "item.boson.obsidian_sword": "Obsidian Sword",
+  "itemGroup.obsidian_group": "Obsidian Tab",
+  "message.neutrino.counter": "count: %d",
+  "message.hello_block.hello": "Hello",
+  "message.obsidian_speed_show": "Speed Level: %d",
+  "gui.boson.first": "First GUI",
+  "gui.boson.first.save": "Save",
+  "gui.boson.first.test": "Test",
+  "cmd.boson.hello": "Hello",
+  "message.boson.config": "Config Value: %d",
+  "message.boson.press": "You press J Key",
+  "key.category.boson": "Test Key",
+  "key.message":"Test"
+}

@@ -2,7 +2,7 @@
   "item.boson.obsidian_ingot": "黑曜石锭",
   "item.boson.obsidian_apple": "黑曜石苹果",
   "item.boson.obsidian_sword": "黑曜石剑",
-  "itemGroup.boson": "黑曜石物品栏",
+  "itemGroup.obsidian_group": "黑曜石物品栏",
   "message.neutrino.counter": "计数: %d",
   "message.hello_block.hello": "你好",
   "message.obsidian_speed_show": "速度等级: %d",
