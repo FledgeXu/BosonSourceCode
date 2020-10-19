@@ -5,6 +5,6 @@ import net.minecraft.item.Item;
 
 public class ObsidianHudItem extends Item {
     public ObsidianHudItem() {
-        super(new Properties().group(ModGroup.itemGroup));
+        super(new Properties().group(ModGroup.ITEM_GROUP));
     }
 }

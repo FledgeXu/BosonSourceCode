@@ -11,7 +11,7 @@ import net.minecraft.world.World;
 
 public class SoundTestItem extends Item {
     public SoundTestItem() {
-        super(new Properties().group(ModGroup.itemGroup));
+        super(new Properties().group(ModGroup.ITEM_GROUP));
     }
 
     @Override

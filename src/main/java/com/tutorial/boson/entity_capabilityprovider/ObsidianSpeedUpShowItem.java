@@ -12,7 +12,7 @@ import net.minecraftforge.common.util.LazyOptional;
 
 public class ObsidianSpeedUpShowItem extends Item {
     public ObsidianSpeedUpShowItem() {
-        super(new Properties().group(ModGroup.itemGroup));
+        super(new Properties().group(ModGroup.ITEM_GROUP));
     }
 
     @Override

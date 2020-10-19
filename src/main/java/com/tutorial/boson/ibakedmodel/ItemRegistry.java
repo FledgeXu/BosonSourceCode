@@ -10,5 +10,5 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
-    public static final RegistryObject<Item> obsidianHidden = ITEMS.register("obsidian_hidden", () -> new BlockItem(BlockRegistry.obsidianHidden.get(), new Item.Properties().group(ModGroup.itemGroup)));
+    public static final RegistryObject<Item> obsidianHidden = ITEMS.register("obsidian_hidden", () -> new BlockItem(BlockRegistry.obsidianHidden.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
 }

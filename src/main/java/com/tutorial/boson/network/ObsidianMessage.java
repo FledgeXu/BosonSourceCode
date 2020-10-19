@@ -12,7 +12,7 @@ import net.minecraftforge.fml.network.PacketDistributor;
 
 public class ObsidianMessage extends Item {
     public ObsidianMessage() {
-        super(new Properties().group(ModGroup.itemGroup));
+        super(new Properties().group(ModGroup.ITEM_GROUP));
     }
 
     @Override

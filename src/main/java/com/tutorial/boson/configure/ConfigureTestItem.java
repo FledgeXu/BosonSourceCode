@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 
 public class ConfigureTestItem extends Item {
     public ConfigureTestItem() {
-        super(new Properties().group(ModGroup.itemGroup));
+        super(new Properties().group(ModGroup.ITEM_GROUP));
     }
 
     @Override

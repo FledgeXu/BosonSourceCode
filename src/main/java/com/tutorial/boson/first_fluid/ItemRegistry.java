@@ -12,5 +12,5 @@ import static net.minecraft.item.Items.BUCKET;
 
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
-    public static RegistryObject<Item> obsidianFluidBucket = ITEMS.register("obsidian_fluid_bucket", () -> new BucketItem(FluidRegistry.obsidianFluid, new Item.Properties().group(ModGroup.itemGroup).containerItem(BUCKET)));
+    public static RegistryObject<Item> obsidianFluidBucket = ITEMS.register("obsidian_fluid_bucket", () -> new BucketItem(FluidRegistry.obsidianFluid, new Item.Properties().group(ModGroup.ITEM_GROUP).containerItem(BUCKET)));
 }

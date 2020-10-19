@@ -12,7 +12,7 @@ import net.minecraftforge.fml.DistExecutor;
 
 public class ObsidianFirstGuiItem extends Item {
     public ObsidianFirstGuiItem() {
-        super(new Properties().group(ModGroup.itemGroup));
+        super(new Properties().group(ModGroup.ITEM_GROUP));
     }
 
 
