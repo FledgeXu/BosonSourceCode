@@ -21,12 +21,12 @@ public class OreGen {
     public static void onSetUpEvent(BiomeLoadingEvent event) {
         event.getGeneration().withFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                 Feature.ORE.withConfiguration(
-                        new OreFeatureConfig(OreFeatureConfig.FillerBlockType.field_241882_a,
+                        new OreFeatureConfig(OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
                                 BlockRegistry.obsidianBlock.get().getDefaultState(),
                                 9)
-                ).withPlacement(Placement.field_242907_l.configure(new TopSolidRangeConfig(0, 0, 64)))
-                        .withPlacement(Placement.field_242903_g.configure(NoPlacementConfig.field_236556_b_))
-                        .withPlacement(Placement.field_242899_c.configure(new FeatureSpreadConfig(FeatureSpread.func_242252_a(20))))
+                ).withPlacement(Placement.RANGE.configure(new TopSolidRangeConfig(0, 0, 64)))
+                        .withPlacement(Placement.SQUARE.configure(NoPlacementConfig.INSTANCE))
+                        .withPlacement(Placement.COUNT.configure(new FeatureSpreadConfig(FeatureSpread.func_242252_a(20))))
         );
     }
 }
