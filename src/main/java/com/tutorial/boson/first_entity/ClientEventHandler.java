@@ -10,8 +10,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class ClientEventHandler {
     @SubscribeEvent
     public static void onClientSetUpEvent(FMLClientSetupEvent event) {
-        event.enqueueWork(() -> {
             RenderingRegistry.registerEntityRenderingHandler(EntityTypeRegistry.flyingSwordEntity.get(), FlyingSwordRender::new);
-        });
     }
 }
